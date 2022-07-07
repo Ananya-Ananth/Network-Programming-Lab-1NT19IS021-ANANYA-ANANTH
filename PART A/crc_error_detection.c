@@ -33,10 +33,11 @@ int main()
              else
               newdata[i+j]=rem(newdata[i+j],0);
             }
+}
  printf("\n The Crc is : ");
  for(i=0;i<dil-1;i++)
   printf("%d",crc[i]);
- }
+ 
 
  printf("\n The data to be send is : ");
  for(i=0;i<(dl+dil-1);i++)
@@ -59,7 +60,7 @@ int main()
               revdata[i+j]=rem(revdata[i+j],div[i]);
              else
               revdata[i+j]=rem(revdata[i+j],0);
-            }
+            }}
  printf("\n The reminder is : ");
  k=0;
  for(i=0;i<dil-1;i++)
@@ -68,7 +69,7 @@ int main()
    if(remd[i]==0)
     k++;
   }
- }
+ 
  if(k==dil-1)
  printf("\n There is no error found.");
  else
