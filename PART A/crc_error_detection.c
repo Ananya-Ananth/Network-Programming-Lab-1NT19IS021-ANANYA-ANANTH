@@ -1,7 +1,6 @@
 #include<stdio.h>
-#include<conio.h>
 int rem(int,int);
-void main()
+int main()
 {
   int i,j,k,dl,dil;
   int data[10],div[5],newdata[15],crc[5],datacrc[15],revdata[15],remd[5];
@@ -74,7 +73,7 @@ void main()
  printf("\n There is no error found.");
  else
  printf("\n There is error found.");
- getch();
+ return 0;
 }
 
 int rem(int x, int y)
